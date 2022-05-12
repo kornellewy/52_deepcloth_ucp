@@ -17,6 +17,6 @@ def change_images_name_in_targer_dir(
 
 if __name__ == "__main__":
     target_dataset = Path(
-        "J:/deepcloth/datasets/under_cloth_preciction_dataset/start_images"
+        "J:/deepcloth/datasets/under_cloth_preciction_dataset/raw_images"
     )
     change_images_name_in_targer_dir(target_dir_path=target_dataset)
